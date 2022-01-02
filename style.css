@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.y-logo{
+    width: 30px;
+    height: 30px;
+    margin: 17px 0px 0px 22px;
+}
+.y-navbar{
+    display: flex;
+    height: 70px;
+}
+
+.menu{
+    width: 30px;
+    height: 45px;
+    margin: 8px;
+    cursor: pointer;
+    
+
+}
+span{
+    margin: 22px 5px 5px 5px;
+    font-size: 20px;
+    cursor: pointer;
+   
+
+}
+.input-box{
+    display: flex;
+    position: relative;
+}
+input{
+    width: 600px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 35px;
+    border-radius: 2px;
+    outline: none;
+    font-size: 25px;
+    padding-left: 10px;
+
+    
+    
+}
+.close-icon{
+    position: absolute;
+    
+    left: 580px;
+    top: 22px;
+    display: flex;
+
+}
+
+
+.close{
+   width: 35px;
+   margin-top: -8px;
+   margin-left: -60px;
+   cursor: pointer;
+}
+
+
+/*.search{
+    width: 30px;
+    margin-top: -4px;
+    margin-left: 8px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}*/
+
+.search1{
+    border: 1px solid black;
+    padding: 6px 26px;
+    margin: -10px -3px -3px 0px;
+    cursor: pointer;
+
+}
+
+.next-icon{
+    margin: 25px 0px 0px 10px;
+    padding-left: 10px;
+    
+}
+.next-icon > img{
+    padding: 0px 22px;
+    cursor: pointer;
+
+}
+.logo3{
+    width: 35px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.input-box input::placeholder{
+    font-size: 17px;
+    
+}
+
